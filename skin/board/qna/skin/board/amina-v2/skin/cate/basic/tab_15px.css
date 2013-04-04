@@ -1,0 +1,16 @@
+
+/* Category CSS */
+.cate_tab{position:relative;height:25px;margin-top:0px;padding-left:15px;background:url('./img/tab_tab_menu.gif') repeat-x 0 100%;font-family:'돋움',dotum;font-size:12px}
+.cate_tab ul,.tab ul li{margin:0;padding:0}
+.cate_tab ul li{list-style:none}
+.cate_tab ul li,.cate_tab ul li a{background:url('./img/tab_bg_tab_off.gif') no-repeat}
+.cate_tab ul li{float:left;margin-right:-1px;line-height:22px}
+.cate_tab ul li a {display:inline-block;padding:2px 16px 1px;_padding:3px 16px 0;background-position: 100% 0;font-weight:bold;color:#333;text-decoration:none !important}
+.cate_tab ul li a:link, .cate_tab ul li a:visited {color:#333;}
+.cate_tab ul li a:hover, .cate_tab ul li a:active{color:#ff7141;}
+.cate_tab ul li.on, .cate_tab ul li.on a{background-image:url('./img/tab_bg_tab_on.gif')}
+.cate_tab ul li.on a, .cate_tab ul li.on a:link, .cate_tab ul li.on a:visited, .cate_tab ul li.on a:hover, .cate_tab ul li.on a:active{color:#ff7141}
+.cate_tab ul li.end {float:right; background:none}
+.cate_tab ul li.end a{display:inline-block;padding:2px 14px 1px;_padding:3px 14px 0;background:none;font-weight:normal;color:#888; text-decoration:none !important}
+.cate_tab ul li .txt {font-size:11px; font-family:dotum; font-weight:normal; color:#888; letter-spacing:-1px;}
+.cate_tab ul li .cnt {color:orangered;font-family:tahoma;font-weight:bold}

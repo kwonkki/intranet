@@ -1,0 +1,16 @@
+﻿/* Paginate */
+.paginate{overflow:hidden;clear:both;margin:0 auto;padding:20px 0;text-align:center;zoom:1}
+.paginate a{display:-moz-inline-box;display:inline-block;_position:relative;margin-right:-3px;padding:0 0 0 5px;color:#666;font-family:'돋움',Dotum;font-size:12px;font-weight:bold;line-height:28px;text-decoration:none !important}
+.paginate a:hover,.paginate a:focus,.paginate a:active{background:url('./img/bg_page_nav_ru.gif') no-repeat 0 0 !important}
+.paginate strong{display:-moz-inline-box;display:inline-block;_position:relative;margin-right:-3px;padding:0 0 0 5px;background:url('./img/bg_page_nav_ru.gif') no-repeat 0 0 !important;color:#666;font-family:'돋움',Dotum;font-size:12px;font-weight:bold;line-height:28px;text-decoration:none !important}
+.paginate strong{color:#01939c !important}
+.paginate a span{display:block;_display:inline;position:relative;top:0;padding:0 8px 0 3px;zoom:1}
+.paginate a:hover span,.paginate a:focus span,.paginate a:active span{background:url('./img/bg_page_nav_ru.gif') no-repeat 100% 0 !important;text-decoration:underline;cursor:pointer}
+.paginate strong span{display:block;_display:inline;position:relative;top:0;padding:0 8px 0 3px;background:url('./img/bg_page_nav_ru.gif') no-repeat 100% 0 !important;zoom:1}
+
+/* option */
+.paginate a.pre,.paginate a.next{position:relative;top:9px;background:none !important;font-family:'돋움',Dotum,'굴림',Gulim, AppleGothic, Sans-serif;font-size:12px}
+.paginate a.pre:hover,.paginate a.pre:focus,.paginate a.pre:active,.paginate a.next:hover,.paginate a.next:focus,.paginate a.next:active{background:none !important}
+.paginate a.pre{margin-right:10px}
+.paginate a.next{margin-left:8px}
+

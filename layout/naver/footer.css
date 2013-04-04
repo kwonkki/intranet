@@ -1,0 +1,27 @@
+
+/************* footer ***************/
+#footer { z-index : 1000; position:absolute;	bottom:0;left:0; height : 140px; padding-bottom:0px; width:100%; min-width:1000px; text-align:center; border-top: 2px solid #636363;background: url("./img/f_ww.png") repeat-x;}
+
+#fSponsor {width:840px; margin:auto; padding: 11px 0 24px 101px; background:url(./img/f_partner.png) 21px 20px no-repeat;}
+#fSponsor ul {width:840px;height:25px;overflow:hidden;text-align:left;}
+#fSponsor li {list-style:none;float:left;padding-right:1px;background:url(./img/img_kn_m_hadan_bar.gif) right 0px no-repeat;}
+#fSponsor li.last {background:none;}
+
+#footerTopArea {width:855px;*width:978px;height:57px;*height:77px;padding:20px 61px 0 71px;background:url(./img/bg_kn_m_botqna.gif) no-repeat;}
+#footerTopArea .formArea {width:393px;}
+#footerTopArea .inp {float:left;width:323px;height:20px;margin-top:11px;border:none;font:bold 14px/16px AppleGhotic,dotum;letter-spacing:-1px;}
+#footerTopArea .btn {float:right;width:70px;height:35px;background:url("./img/bt_km_m_my2.gif") no-repeat;}
+.footerBg {background:url(./img/bg_kn_body.gif) repeat-y;}
+#footerBottom {text-align:center; color:#a5a5a5; margin:0; font-size:12px; font-weight:normal;  background:#fbfbfb;background: url("./img/tttt.png") repeat-x;}
+#footerLine { }
+#footerBottom p {padding-top:4px;line-height:18px;background: url("./img/tttt.png") repeat-x;}
+
+#footer .footer_menu { margin:auto; width:730px; padding:8px 0 2px 172px; height:30px;}
+#footer .footer_menu li {float:left; height:20px; list-style:none;}
+#footer .footer_menu li.first {background:none;}
+#footer .footer_menu li a {float:left; padding:0 9px 0 10px; height:30px; line-height:28px; overflow:hidden; font-size:11px; color:#999;}
+#footer .footer_menu li a strong {font-weight:bold; color:#666;}
+#footer .footer_menu li a:hover,
+#footer .footer_menu li a:hover strong {color:#109de9;}
+#footer .cpr {font-family:verdana; height:30px; line-height:16px; overflow:hidden; font-size:10px; color:#999; background: url("./img/tttt.png") repeat-x;}
+#footer .cpr strong {font-weight:bold; color:#666;}

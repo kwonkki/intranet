@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; }
+ul, li { list-style-type: none; }
+
+#box_title { width: 394px; margin: 0px auto; line-height: 20px; font-size: 13px; }
+#box_title a { color: #000000;}
+#con { width: 394px; height: 540px; margin: 0px auto; position: relative; border-top: 1px solid #d6d6d6; border-left: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; border-right: 1px solid #d6d6d6; background-color: #fbfbfb; overflow: hidden; }
+
+#con .bottomcover { position: absolute; bottom: 0; background: url("../images/halftransp.png") no-repeat 0 -5px; height: 35px; width: 394px; pointer-events: none;
+	/* DTD버전에서는 주석 해제하세요. */
+	/*IE6 HACK@/ _background: none;
+ 	/*IE6 HACK@/ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/tlogin/halftransp.png?id=1341302813656', sizingMethod='crop');*/
+}
+img { border: none; }
+#con ul { position: relative; margin: 0px 10px 0px 10px; top: 0; left: 0; padding: 0; }
+#con ul li { width: 100%; border-top: 1px dotted #d6d6d6; padding: 10px 0; /*IE6 HACK*/_padding: 8px 0;/**/ overflow: hidden; line-height: 1.5; }
+#con ul li .div_left { float: left; width: 50px; }
+#con ul li .div_right { float: right; width: 305px; color: #898989; } /* 제목+내용 */
+#con ul li .div_right a { text-decoration: none; color: #759ab0; padding: 0px; } /* 분류 */
+#con ul li .div_right .twit_item_time { color: #bcd5f7; padding: 0px; float: right; } /* 시간 */

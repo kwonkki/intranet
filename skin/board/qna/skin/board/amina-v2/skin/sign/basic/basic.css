@@ -1,0 +1,11 @@
+﻿.sign_xp { padding:6px; border-top:1px solid #eee; }
+.sign_xp_percent { LINE-HEIGHT: 14px; PADDING-LEFT: 6px; WIDTH: 35px; FONT-FAMILY: Tahoma; BACKGROUND: url('./img/xp_per.png') no-repeat left top; HEIGHT: 15px; COLOR: black; FONT-SIZE: 9px }
+.sign_xp_bar { WIDTH: 102px; BACKGROUND: url('./img/xp_bar.png') no-repeat left top; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_bar DIV { BACKGROUND: url('./img/xp_bar.png') no-repeat left -15px; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_maxbar { WIDTH: 102px; BACKGROUND: url('./img/xp_maxbar.png') no-repeat left top; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_maxbar DIV { BACKGROUND: url('./img/xp_maxbar.png') no-repeat left -15px; HEIGHT: 15px; OVERFLOW: hidden }
+
+.sign_photo { padding:20px 10px 8px 0; }
+.sign_photo img { border:1px solid #eee; display:block; }
+.xp_grade { font:normal 11px dotum; color:#888; letter-spacing:-1px; }
+.signature { padding:8px 0px 20px; color:#888; line-height:1.4; border-top:1px solid #eee; }

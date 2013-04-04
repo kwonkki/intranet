@@ -1,0 +1,111 @@
+﻿/* Latest Head Basic CSS */
+.latest_head_basic td.top {border-top:1px solid #ddd; padding:0px 8px;}
+.latest_head_basic td.bottom {background: url('./img/hd_line.gif');}
+.latest_head_basic td ul{margin:0; padding:0; font:normal 11px dotum; letter-spacing:-1px; }
+.latest_head_basic td ul li{list-style:none; float:left; position:relative; margin:0; padding:0 10px 0 11px; border:0px; color:#333; line-height:12px; background: url('./img/list_bar.gif') no-repeat left center; white-space:nowrap}
+.latest_head_basic td ul li.first{padding:0 10px 0 0; background: none}
+.latest_head_basic td ul li a, .latest_head_basic td ul li a:link, .latest_head_basic td ul li a:visited{color:#888; text-decoration:none}
+.latest_head_basic td ul li a:hover, .latest_head_basic td ul li a:active{color:orangered; text-decoration:none}
+.latest_head_basic td ul li .on {color:#000; font:bold 12px dotum; letter-spacing:0;}
+.latest_head_basic td ul li.end {float:right; background:none; border:0px; padding:0;}
+.latest_head_basic td ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest Head Gray CSS */
+.latest_head_gray td.top {border-top:1px solid #ddd; padding:0px 8px; background:#fafafa;}
+.latest_head_gray td.bottom {background: url('./img/hd_line.gif');}
+.latest_head_gray td ul{margin:0; padding:0; font:normal 11px dotum; letter-spacing:-1px;}
+.latest_head_gray td ul li{list-style:none; float:left; position:relative; margin:0; padding:0 8px 0 9px; border:0px; color:#333; line-height:12px; background: url('./img/list_bar.gif') no-repeat left center; white-space:nowrap}
+.latest_head_gray td ul li.first{padding:0 8px 0 0; background: none}
+.latest_head_gray td ul li a, .latest_head_gray td ul li a:link, .latest_head_gray td ul li a:visited{color:#888; text-decoration:none}
+.latest_head_gray td ul li a:hover, .latest_head_gray td ul li a:active{color:orangered; text-decoration:none}
+.latest_head_gray td ul li .on {color:#000; font:bold 12px dotum; letter-spacing:0; }
+.latest_head_gray td ul li.end {float:right; background:none; border:0px; padding:0;}
+.latest_head_gray td ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest Head Tab CSS */
+.latest_head_tab{position:relative;height:29px;margin-top:0px;background:url('./img/bg_tab.gif') repeat-x 0 100%;font-family:'돋움',dotum;font-size:12px}
+.latest_head_tab ul, .latest_head_tab ul li{margin:0;padding:0}
+.latest_head_tab ul li{list-style:none}
+.latest_head_tab ul li, .latest_head_tab ul li a{background:url('./img/bg_tab_off.gif') no-repeat}
+.latest_head_tab ul li{float:left;margin-right:-1px;line-height:26px}
+.latest_head_tab ul li a {display:inline-block;padding:2px 14px 1px;_padding:3px 14px 0;background-position: 100% 0;font-weight:normal;color:#333;text-decoration:none !important}
+.latest_head_tab td ul li a, .latest_head_tab ul li a:link, .latest_head_tab ul li a:visited {color:#333;}
+.latest_head_tab ul li a:hover, .latest_head_tab ul li a:active{color:#000;font-weight:bold;}
+.latest_head_tab ul li.on, .latest_head_tab ul li.on a{background-image:url('./img/bg_tab_on.gif')}
+.latest_head_tab ul li.on a, .latest_head_tab ul li.on a:link, .latest_head_tab ul li.on a:visited, .latest_head_tab ul li.on a:hover, .latest_head_tab ul li.on a:active{font-weight:bold; color:#000;}
+.latest_head_tab ul li.end {float:right; background:none; border:0px;}
+.latest_head_tab ul li.end a, .latest_head_tab ul li.end a:hover, .latest_head_tab ul li.end a:active {display:inline-block;padding:10px 6px 1px;_padding:11px 6px 0;background:none;text-decoration:none !important}
+.latest_head_tab ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest Head Box CSS */
+.latest_head_box{position:relative; height:29px; margin-top:0px; background:url('./img/bg_box.gif') repeat-x 0 100%;}
+.latest_head_box ul {margin:0;padding:0}
+.latest_head_box li{_display:inline;float:left;margin-right:3px;border:1px solid #d4d4d4;border-bottom:0px; color:#333; margin-bottom:-1px;}
+.latest_head_box li a{display:block;_float:left;line-height:12px;padding:9px 18px 9px 19px;color:#666;text-decoration:none}
+.latest_head_box td ul li a, .latest_head_box ul li a:link, .latest_head_box ul li a:visited {color:#333;}
+.latest_head_box ul li a:hover, .latest_head_box ul li a:active{background:#f4f4f4;color:#333}
+.latest_head_box li.on{border-bottom:1px solid #f4f4f4; background:#fff}
+.latest_head_box li.on a{color:#333;font-weight:bold;letter-spacing:-1px}
+.latest_head_box ul li.on a:link, .latest_head_box ul li.on a:visited, .latest_head_box ul li.on a:hover, .latest_head_box ul li.on a:active{color:#333}
+.latest_head_box ul li.end {float:right; background:none; border:0px;}
+.latest_head_box ul li.end a, .latest_head_box ul li.end a:hover, .latest_head_box ul li.end a:active {display:inline-block;padding:10px 6px 1px;_padding:11px 6px 0;background:none;text-decoration:none !important}
+.latest_head_box ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest Head Tile CSS */
+.latest_head_tile{position:relative; margin-top:0px; height:29px; background:url('./img/bg_title.gif') repeat-x 0 100%;}
+.latest_head_tile ul {margin:0;padding:0}
+.latest_head_tile li{_display:inline;float:left;margin-right:-1px;border:1px solid #d4d4d4;border-bottom:0px; color:#333; margin-bottom:-1px;}
+.latest_head_tile li a{display:block;_float:left;line-height:12px;padding:9px 18px 9px 19px;color:#666;text-decoration:none}
+.latest_head_tile td ul li a, .latest_head_tile ul li a:link, .latest_head_tile ul li a:visited {color:#333;}
+.latest_head_tile ul li a:hover, .latest_head_tile ul li a:active{background:#f4f4f4;color:#333}
+.latest_head_tile li.on{border-bottom:1px solid #f4f4f4; background:#fff}
+.latest_head_tile li.on a{color:#333;font-weight:bold;letter-spacing:-1px}
+.latest_head_tile ul li.on a:link, .latest_head_tile ul li.on a:visited, .latest_head_tile ul li.on a:hover, .latest_head_tile ul li.on a:active{color:#333}
+.latest_head_tile ul li.end {float:right; background:none; border:0px;}
+.latest_head_tile ul li.end a, .latest_head_tile ul li.end a:hover, .latest_head_tile ul li.end a:active {display:inline-block;padding:10px 6px 1px;_padding:11px 6px 0;background:none;text-decoration:none !important}
+.latest_head_tile ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest Head Amina CSS */
+.latest_head_amina{position:relative;height:29px;margin-top:0px; background:url('./img/bg_amina.gif') repeat-x 0 100%;font-family:'돋움',dotum;font-size:12px;}
+.latest_head_amina ul,.latest_head_amina ul li{margin:0;padding:0}
+.latest_head_amina ul li{list-style:none}
+.latest_head_amina ul li,.latest_head_amina ul li a{background:url('./img/bg_amina_off.gif') no-repeat}
+.latest_head_amina ul li{float:left;margin-right:-1px;line-height:26px}
+.latest_head_amina ul li a, .latest_head_amina ul li a:visited, .latest_head_amina ul li a:link{display:inline-block;padding:2px 14px 1px;_padding:3px 14px 0;background-position: 100% 0;font-weight:normal;color:#333; text-decoration:none !important}
+.latest_head_amina ul li a:hover{color:#000;}
+.latest_head_amina ul li.on,.latest_head_amina ul li.on a{font-weight:bold; background-image:url('./img/bg_amina_on.gif')}
+.latest_head_amina ul li.on a, .latest_head_amina ul li.on a:visited, .latest_head_amina ul li.on a:link{font-weight:bold; color:#000;}
+.latest_head_amina ul li.on a:hover{color:#000;}  
+.latest_head_amina ul li.end {float:right; background:none; border:0px;}
+.latest_head_amina ul li.end a, .latest_head_amina ul li.end a:hover, .latest_head_amina ul li.end a:active {display:inline-block;padding:10px 6px 1px;_padding:11px 6px 0;background:none;text-decoration:none !important}
+.latest_head_amina ul li.end .more{font:normal 11px dotum; letter-spacing:-1px;color:#888; !important}
+
+/* Latest List Basic CSS */
+.latest_img_basic { padding:0; margin:0; text-align:center;}
+.latest_img_basic a:link, .latest_img_basic a:visited { text-decoration:none; color:#333; }
+.latest_img_basic a:hover, .latest_img_basic a:active { text-decoration:none; color:orangered; }
+.latest_img_basic .img_box { overflow:hidden; line-height:1.3; word-break:break-all;}
+.latest_img_basic .img{cursor:pointer; text-align:left;}
+.latest_img_basic .img .thumb{border:1px solid #ddd;}
+.latest_img_basic .img .thumb img{display:block; border:0px;}
+.latest_img_basic p.img_sub { padding:3px 0; margin:0; font-weight:bold; }
+.latest_img_basic p.img_txt { padding:3px 0; margin:0; text-align:left; color:#787878; }
+.latest_img_basic .comment { font:normal 10px verdana; color:#EE5A00; letter-spacing:-1px; }
+.latest_img_basic .space { height:6px; line-height:1px; font:1px; padding:0; margin:0; }
+
+.latest_list_basic { padding:0; margin:0; }
+.latest_list_basic a:link, .latest_list_basic a:visited { text-decoration:none; color:#333; }
+.latest_list_basic a:hover, .latest_list_basic a:active { text-decoration:none; color:orangered; }
+.latest_list_basic .icon img{display:block; border:0px; }
+.latest_list_basic .sub { overflow:hidden; }
+.latest_list_basic .comment { font:normal 10px verdana; color:#EE5A00; letter-spacing:-1px; }
+.latest_list_basic .num{font:normal 11px tahoma;color:#767676;letter-spacing:0px;text-align:center}
+.latest_list_basic .cate{font:normal 11px tahoma;color:#767676;letter-spacing:-1px;}
+.latest_list_basic .name, .latest_list_basic .name .member, .latest_list_basic .name .guest{font:normal 11px dotum; letter-spacing:-1px; color:#767676;}
+.latest_list_basic .name img{border:0;}
+.latest_list_basic .hit, .latest_list_basic .cmt, .latest_list_basic .good, .latest_list_basic .nogood {font:normal 11px tahoma; line-height:11px; LETTER-SPACING:0px; TEXT-ALIGN:left;}
+.latest_list_basic .hit{PADDING-LEFT:15px;  BACKGROUND: url('./img/icon_hit.gif') no-repeat 0px 0px; COLOR:#1ba7f9;}
+.latest_list_basic .cmt{PADDING-LEFT:10px; font-weight:bold; BACKGROUND: url('./img/icon_cmt.gif') no-repeat 0px 0px; COLOR:#f96c1b;}
+.latest_list_basic .good{PADDING-LEFT:14px; BACKGROUND: url('./img/icon_good.gif') no-repeat 0px 0px; COLOR:#f4695b;}
+.latest_list_basic .nogood{PADDING-LEFT:14px; BACKGROUND: url('./img/icon_nogood.gif') no-repeat 0px 0px; COLOR:#29abf2;}
+.latest_list_basic .no_list{text-align:center;color:#767676;letter-spacing:-1px;}

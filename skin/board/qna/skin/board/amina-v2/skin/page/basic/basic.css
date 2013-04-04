@@ -1,0 +1,13 @@
+﻿/* Regular 페이징 */
+.paginate{padding:20px 0;text-align:center;line-height:normal}
+.paginate a,
+.paginate strong{display:inline-block;position:relative;margin:0 -2px;padding:2px 8px;font-weight:bold;font-size:12px;font-family:Tahoma, Sans-serif;color:#333;line-height:normal;text-decoration:none;vertical-align:middle}
+.paginate a:hover,
+.paginate a:active,
+.paginate a:focus{background-color:#f8f8f8; text-decoration:none; color:orangered;}
+.paginate strong{color:#f60}
+.paginate .direction{font-weight:normal;color:#767676;white-space:nowrap}
+.paginate .direction span{font-weight:bold;font-size:14px}
+.paginate .direction:hover,
+.paginate .direction:active,
+.paginate .direction:focus{background-color:#fff;color:#333;text-decoration:none;}

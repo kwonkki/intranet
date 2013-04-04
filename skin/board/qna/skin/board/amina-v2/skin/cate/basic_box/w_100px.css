@@ -1,0 +1,11 @@
+/* Category CSS */
+.cate_box { border:1px solid #ddd; margin:0px 0px 15px; }
+.cate_box td { color:#666; }
+.cate_box td a:link, .cate_tab td a:visited {color:#666;}
+.cate_box td a:hover, .cate_tab td a:active{color:orangered;}
+.cate_box td .on a:link, .cate_tab td .on a:visited, .cate_tab td .on a:hover, .cate_tab td .on a:active{font-weight:bold; color:orangered;}
+.cate_box td .cnt {color:orangered;font-family:tahoma;font-weight:bold}
+.cate_box td.sperate { padding:0px; padding-left:20px; border-left:1px solid #ddd; border-right:1px solid #ddd; }
+.cate_box ul{overflow:hidden;position:relative;margin:0;padding:0;list-style:none;*zoom:1}
+.cate_box ul:after{display:block;clear:both;content:""}
+.cate_box li{overflow:hidden;float:left;position:relative;width:100px;line-height:26px;}

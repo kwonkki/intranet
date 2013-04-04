@@ -1,0 +1,9 @@
+
+/* STAR CSS */
+.star_l { position:relative; padding:0px; margin:0px; TEXT-ALIGN: left; WIDTH: 100px; BACKGROUND: url('./img/star/star_mask_l.png') no-repeat; HEIGHT: 25px }
+.star_l .mask { WIDTH: 0px; DISPLAY: block; HEIGHT: 25px; OVERFLOW: hidden }
+.star_m { position:relative; padding:0px; margin:0px; TEXT-ALIGN: left; WIDTH: 70px; BACKGROUND: url('./img/star/star_mask_m.png') no-repeat; HEIGHT: 12px }
+.star_m .mask { WIDTH: 0px; DISPLAY: block; HEIGHT: 12px; OVERFLOW: hidden }
+.star_s { position:relative; padding:0px; margin:0px; TEXT-ALIGN: left; WIDTH: 55px; BACKGROUND: url('./img/star/star_mask_s.png') no-repeat; HEIGHT: 10px }
+.star_s .mask { WIDTH: 0px; DISPLAY: block; HEIGHT: 10px; OVERFLOW: hidden }
+.star_l .mask IMG, .star_m .mask IMG, .star_s .mask IMG { DISPLAY: block }

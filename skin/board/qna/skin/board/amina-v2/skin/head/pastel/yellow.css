@@ -1,0 +1,13 @@
+
+/* Head CSS */
+tr.head_tr {border:0px; height:34px; background: url('./img/yellow.gif') repeat-x; padding:0;margin:0}
+td.head_td {color:#333; border:0; padding:0; margin:0}
+td.head_td a:link, td.head_td a:visited {text-decoration:none; color:#333; }
+td.head_td a:hover, td.head_td a:active {text-decoration:none; color:crimson; }
+
+ul.head_info {margin:0; padding:0; display:inline-block; font:normal 11px dotum; letter-spacing:-1px;}
+ul.head_info li{list-style:none; float:left; position:relative; margin:0; padding:0 10px 0 11px; border:0px; color:#888; line-height:11px; background: url('./img/head_bar.gif') no-repeat left center; white-space:nowrap}
+ul.head_info li.first{padding:0 10px 0 0; background: none}
+ul.head_info li a:link, ul.post_info li a:visited{color:#888; text-decoration:none}
+ul.head_info li a:hover, ul.post_info li a:active{color:orangered; text-decoration:none}
+ul.head_info li span.cnt{letter-spacing:0}

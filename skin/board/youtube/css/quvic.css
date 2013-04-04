@@ -1,0 +1,84 @@
+body{
+	font-family: verdana;
+	
+	color: black;
+	font-size: 12px;
+	margin: auto;
+}
+a{
+	color: #0000cc;
+    text-decoration:none;
+}
+
+form {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+h1, h3, h4, h5{
+	font-family: Verdana, Arial, georgia;
+	margin:0px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	color: black;
+}
+h2 {
+	font-family: Verdana, Arial, georgia;
+	margin:0px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	color: silver;
+}
+
+img {
+	border: 0;
+}
+dl.videos dt {
+float: left;
+width: 130px;
+margin:0px;
+padding:6.5px;
+font-size: 11px;
+font-family: Verdana, Arial;
+height: 170px;
+}
+dl.videos dt img {
+border: 3px solid #fff; /*!Thumbnail Border Back Ground Color important quvic.js-> line no. 295*/
+cursor: pointer; 
+}
+ 
+#videolist {
+ width: 720px;
+height: 350px;
+margin:0px;
+padding:0px;
+}
+
+.video_thumb {background-color: white; position: relative; }
+
+.thumbbox	{ display: inline-block;
+					border: 0px solid #ffffff;
+					
+				}
+.thumbbox 	{ padding: 0px; }
+.thumbbox .duration { padding: 0px 0px; right: 3px; bottom: 6px; }
+.ptitle	{ font-weight:bold; color:#000; }
+
+.duration { 
+border-bottom-left-radius: 2px 2px;
+border-bottom-right-radius: 2px 2px;
+border-top-left-radius: 2px 2px;
+border-top-right-radius: 2px 2px;
+
+opacity: 0.75;zoom: 1;
+background-color: #6d6d6d;
+color: white !important;
+display: inline-block;
+font-size: 11px;
+font-weight: bold;
+height: 15px;
+line-height: 15px;
+vertical-align: top;
+position: absolute;
+border: 0px;
+}

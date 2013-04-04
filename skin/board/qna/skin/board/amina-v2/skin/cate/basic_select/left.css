@@ -1,0 +1,6 @@
+
+/* Category CSS */
+.cate_select{padding:4px 10px;}
+.cate_select .select_cate {float:left;}
+.cate_select .select_post {float:right; color:#888;}
+.cate_select .cnt {color:orangered;font-family:tahoma;font-weight:bold}

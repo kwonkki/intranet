@@ -1,0 +1,36 @@
+/* List : TBL */
+.list_tbl{border-collapse:collapse;border:0;padding:0;} 
+.list_tbl td, .list_tbl th{ padding:7px 5px;border-bottom:1px solid #eee; line-height:1.6;}
+.list_tbl a:link, .list_tbl a:visited { text-decoration:none; color:#333; }
+.list_tbl a:hover, .list_tbl a:active { text-decoration:none; color:orangered; }
+
+.list_tbl .notice {height:36px; background:#fafafa;}
+.list_tbl .now {height:32px; background:#fafafa;}
+.list_tbl .list {height:32px;}
+.list_tbl .now_post {font-weight:bold; color:orangered;}
+.list_tbl .blind { color:#aaaaaa; }
+.list_tbl .num {font:normal 11px tahoma; color:#767676; text-align:center; }
+.list_tbl .thumb {text-align:left;border:1px solid #eee; cursor:pointer;}
+.list_tbl .thumb img {display:block;border:0;}
+.list_tbl .photo{padding:5px;}
+.list_tbl .photo img{border:1px solid #ddd; display:block;}
+.list_tbl .category { font:normal 11px dotum; color:#767676; letter-spacing:-1px; text-align:center; }
+.list_tbl .subject{overflow:hidden}
+.list_tbl .comment { font:normal 10px verdana; color:#EE5A00; letter-spacing:-1px; }
+.list_tbl .name { color:#787878; }
+.list_tbl .name img{ border:0; }
+.list_tbl .name .member{ font-weight:normal; color:#787878; }
+.list_tbl .name .guest{ font-weight:normal; color:#787878; }
+.list_tbl .cmt {text-align:center; font:normal 11px verdana; color:#767676; }
+.list_tbl .cmt_on {text-align:center;  font:bold 11px verdana; color:#EE5A00; }
+.list_tbl .date {text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .date1 {text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .date2 {text-align:right; font:normal 11px dotum; color:#767676;}
+.list_tbl .hit {text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .good{text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .nogood{text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .choice {text-align:center; font:normal 11px dotum; color:#333333;}
+.list_tbl .nochoice {text-align:center; font:normal 11px dotum; color:#767676;}
+.list_tbl .point {text-align:center; font:normal 11px tahoma; color:#767676;}
+.list_tbl .no_list {text-align:center; padding:150px 0; color:#767676; }
+

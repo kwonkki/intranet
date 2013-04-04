@@ -1,0 +1,61 @@
+/*
+ *     ez_basic Gnuboard4
+ *
+ * 	    latest.skin.php
+ *      
+ *      Copyright 2011 Man Hyung, cho 
+ *      
+ *      File encoding: Korean(Euc-kr)
+ * 
+ */
+
+@Charset "Euc-kr";
+
+.ez_basic_latest_box{
+	border:solid 0px #FF0000;
+	padding:10px;
+}
+
+
+.ez_basic_latest_box a{
+	margin:0;
+	padding:0;
+	line-height:normal;
+	font-size:1.0em;
+	font-family:"±¼¸²",gulim,Sans-serif;
+	color:#2F3743;
+	letter-spacing:0;
+
+}
+
+.ez_basic_latest_box ul a:hover{
+	font-weight: normal;
+	color:#FF8000;
+}
+
+.ez_basic_latest_box p.title{
+	margin:0 0 8px 0;
+}
+.ez_basic_latest_box p.empty{
+	text-align:center;
+	padding:20px;
+}
+
+.ez_basic_latest_box #cmt{
+	font-size:0.9em;
+	font-family:Tahoma,Sans-serif;
+	font-weight: normal;
+	color:#666600;
+}
+
+.ez_basic_latest_box ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.ez_basic_latest_box ul li{
+	padding:0 0 5px 9px; 
+	background:url(./img/dot.gif) 0 5px no-repeat;
+}
+

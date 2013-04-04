@@ -1,0 +1,15 @@
+﻿/* List : TBL */
+.view_tbl { } 
+.view_tbl .member, .view_tbl .guest { color:#222;}
+
+ul.view_info{margin:0; padding:0; display:inline-block; font:normal 11px dotum; letter-spacing:-1px;}
+ul.view_info li{list-style:none; float:left; position:relative; margin:0; padding:0 8px 0 9px; border:0px; color:#888; line-height:11px; background: url('./img/view_bar.gif') no-repeat left center; white-space:nowrap}
+ul.view_info li.first{padding:0 8px 0 0; background: none}
+ul.view_info li a:link, ul.view_info li a:visited{color:#888; text-decoration:none}
+ul.view_info li a:hover, ul.view_info li a:active{color:orangered; text-decoration:underline}
+ul.view_info li span.cnt{letter-spacing:0}
+ul.view_info .member, ul.view_info .guest{color:#8ea5b3;}
+ul.view_info .good{font-weight:normal; TEXT-ALIGN:left; PADDING-LEFT:14px; LETTER-SPACING:0px; BACKGROUND: url('./img/icon_good.gif') no-repeat 0px 0px; COLOR:#f4695b; line-height:11px;}
+ul.view_info .nogood{font-weight:normal; TEXT-ALIGN:left; PADDING-LEFT:14px; LETTER-SPACING:0px; BACKGROUND: url('./img/icon_nogood.gif') no-repeat 0px 0px; COLOR:#29abf2; line-height:11px;}
+
+.viewContents { padding:30px 10px 10px; line-height:1.8; word-break:break-all; word-wrap:break-word; }

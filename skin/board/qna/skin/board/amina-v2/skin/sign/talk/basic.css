@@ -1,0 +1,18 @@
+﻿.sign_line { padding:0px; height:1px; background: url('./img/sign_line.gif'); }
+.sign_arrow { background: url('./img/sign_arrow_bg.gif'); }
+.sign_content { border-top:3px solid #eeeeee; border-right:3px solid #eeeeee; border-bottom:3px solid #eeeeee; background-color:#fafafa;}
+.sign_photo img { border:4px solid #dedede; }
+.sign_cnt { font:11px tahoma; color:#E15916; letter-spacing:0px; }
+.sign_xp_percent { LINE-HEIGHT: 14px; PADDING-LEFT: 6px; WIDTH: 35px; FONT-FAMILY: Tahoma; BACKGROUND: url('./img/xp_per.png') no-repeat left top; HEIGHT: 15px; COLOR: black; FONT-SIZE: 9px }
+.sign_xp_bar { WIDTH: 102px; BACKGROUND: url('./img/xp_bar.png') no-repeat left top; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_bar DIV { BACKGROUND: url('./img/xp_bar.png') no-repeat left -15px; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_maxbar { WIDTH: 102px; BACKGROUND: url('./img/xp_maxbar.png') no-repeat left top; HEIGHT: 15px; OVERFLOW: hidden }
+.sign_xp_maxbar DIV { BACKGROUND: url('./img/xp_maxbar.png') no-repeat left -15px; HEIGHT: 15px; OVERFLOW: hidden }
+.xp_grade { font:normal 11px dotum; color:#888; letter-spacing:-1px; }
+.signature { padding:8px; border:1px solid #ddd; background:#fff; line-height:1.5; }
+
+.sign_list .num{font:normal 11px tahoma;color:#767676;letter-spacing:0px;text-align:center}
+.sign_list .subject{overflow:hidden}
+.sign_list .comment { font:normal 10px verdana; color:#EE5A00; letter-spacing:-1px; }
+.sign_list .good{font-weight:normal; TEXT-ALIGN:left; PADDING-LEFT:14px; LETTER-SPACING:0px; BACKGROUND: url('./img/icon_good.gif') no-repeat 0px 0px; COLOR:#f4695b; line-height:11px;}
+.sign_list .nogood{font-weight:normal; TEXT-ALIGN:left; PADDING-LEFT:14px; LETTER-SPACING:0px; BACKGROUND: url('./img/icon_nogood.gif') no-repeat 0px 0px; COLOR:#29abf2; line-height:11px;}

@@ -1,0 +1,17 @@
+/* Flexible Image Row List */
+.rListiFlexible ul{ margin:0; padding:0; list-style:none; font-size:12px; font-family:Tahoma, Geneva, sans-serif;}
+.rListiFlexible li{ position:relative; padding:15px 0; margin:0 0 -1px 0; border:1px solid #eee; border-left:0; border-right:0; vertical-align:top; *zoom:1;}
+.rListiFlexible li:after{ content:""; display:block; clear:both;}
+.rListiFlexible a{ text-decoration:none; cursor:pointer;}
+.rListiFlexible a strong{ display:inline-block; margin:0 0 4px 0; color:#333;}
+.rListiFlexible a:hover strong,
+.rListiFlexible a:active strong,
+.rListiFlexible a:focus strong{ text-decoration:underline;}
+.rListiFlexible .thumb{ float:left; display:inline-block; margin:0 15px 0 0; -moz-box-shadow:0 0 5px #666; -webkit-box-shadow:0 0 5px #666;}
+.rListiFlexible .thumb img{ border:0; display:block;}
+.rListiFlexible p{ margin:0; line-height:1.4; color:#767676; line-height: 1.5em;}
+
+.ez100_web_latest_box{
+	border:solid 0px #FF0000;
+	padding:10px;
+}

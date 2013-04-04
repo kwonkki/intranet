@@ -1,0 +1,14 @@
+#rss_box ul{margin:0; padding:0; padding-right:12px; display:inline-block; font:normal 11px dotum; letter-spacing:-1px;}
+#rss_box ul li{list-style:none; float:left; position:relative; margin:0; padding:0 8px 0 9px; border:0px; color:#888; line-height:11px; background: url('./img/bar.gif') no-repeat left center; white-space:nowrap}
+#rss_box ul li.first{padding:0 8px 0 0; background: none}
+#rss_box ul li a:link, #rss_box ul li a:visited{color:#888; text-decoration:none}
+#rss_box ul li a:hover, #rss_box ul li a:active{color:orangered; text-decoration:none}
+
+#search_box .search { border:1px solid #ddd; backround:#fff; }
+#search_box .select { padding:4px; }
+#search_box .select select { width:80px; }
+#search_box .input { padding:4px; }
+#search_box .input .stx { border:0; width:120px; }
+#search_box .submit { border:0; display:block; }
+
+#rss_box img, #search_box img {border:0; display:block; }

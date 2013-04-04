@@ -1,0 +1,46 @@
+
+a:link, a:visited, a:active { text-decoration:none; color:222222; }
+a:hover { text-decoration:underline; color:67798B; }
+a.title:link, a.title:visited, a.title:active { text-decoration:none; color:white; }
+a.title:hover { text-decoration:underline; color:white; }
+
+.dot14 { font-size:14px; }
+.title { font-size:9pt; font-family:gulim; font-weight:bold; color:#616161; }
+
+.btn1 {background-color:#f0f0f0;height:25px;font-size:11px; letter-spacing:-1;} 
+
+.col1 { color:#333;}
+.col2 { color:#868686; }
+
+.pad1{padding:5px;}
+.pad2{padding:5px;}
+
+.bgcol1 { background-color:#F7F7F7; padding:5px; }
+.bgcol2 { background-color:#fofofo; padding:5px; }
+
+.line1 { background-color:#4C5053; height:2px; }
+.line2 { background-color:#CCCCCC; height:1px; }
+
+.list0 { background-color:#FFFFFF; }
+.list1 { background-color:#F8F8F8; }
+
+.alist0 { background-color:#FFFFFF; }
+.alist1 { background-color:#F0F2F5;}
+.alist2 { background-color:#FFFFFF;}
+
+.bold{ font-weight:bold;letter-spacing:-1;}
+.center{ text-align:center; }
+.right{ text-align:right; }
+
+.w99 { width:99%; }
+.ht {height:27px;border-bottom:1px #f0f0f0 solid;}
+
+.ed{margin:0px;}
+.member{color:#555555;}
+.config_box td{background:white;}
+
+form{margin:0;}
+
+.normal_box th{height:27px;padding-top:3px;background:#2E5EA0;}
+.normal_box th{letter-spacing:-1;color:white;}
+.normal_box .write_head{padding:3px;background:A0AAB9;letter-spacing:-1;color:white;}
